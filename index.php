@@ -2,6 +2,9 @@
 ob_start();
 session_start();
 require __DIR__ . "/vendor/autoload.php";
+define("ROOT", "https://localhost/");
+define("SITE", "Eterniza Pet");
+
 $router = new \CoffeeCode\Router\Router(ROOT);
 $router->namespace("Source\Controllers");
 
