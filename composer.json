@@ -1,0 +1,28 @@
+{
+    "name":"genielson/meublog",
+    "description":"blog",
+    "minimum-stability":"alpha",
+    "license":"MIT",
+    "authors":[
+        {
+        "name":"Genielson Leal dos Santos",
+        "email":"genielsonl44@gmail.com"
+        }
+    ],
+
+    "autoload":{
+        "psr-4": {
+            "Source\\":"source/"
+        }
+    },
+
+    "require":{
+
+        "php": "^7.3",
+        "ext-pdo": "*",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "v4.0.0-alpha",
+        "phpmailer/phpmailer": "6.*"
+
+    }
+}
