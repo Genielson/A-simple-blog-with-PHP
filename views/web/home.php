@@ -1,3 +1,5 @@
+<?php $v->layout('_header'); ?>
+
 <div class="container">
 
 <div class="row">
@@ -129,3 +131,5 @@
 
 </div>
 <!-- /.container -->
+
+<?php $v->layout('_footer'); ?>
