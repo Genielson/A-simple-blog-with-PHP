@@ -132,4 +132,4 @@
 </div>
 <!-- /.container -->
 
-<?php $v->layout('_footer'); ?>
+
