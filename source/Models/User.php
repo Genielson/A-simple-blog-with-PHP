@@ -4,9 +4,9 @@ namespace Source\Controllers\Models;
 
 class User {
 
-    private $nome;
-    private $sobrenome;
-    private $login;
+    private String $nome;
+    private String $sobrenome;
+    private AuthenticateUser $auth;
     private $password;
 
     
@@ -16,7 +16,7 @@ class User {
     }
 
     private function logout(){
-        
+
     }
 
 
