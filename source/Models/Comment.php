@@ -12,6 +12,10 @@ class Comment {
     }
 
     private function deleteAComment(){
+
+    }
+
+    private function updateAComment(){
         
     }
 
