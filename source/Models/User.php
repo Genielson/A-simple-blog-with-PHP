@@ -9,11 +9,13 @@ class User {
     private $login;
     private $password;
 
-    private function createAComent(){
-
-    }
+    
 
     private function authenticateUser(){
+        
+    }
+
+    private function logout(){
         
     }
 
